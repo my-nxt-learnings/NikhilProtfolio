@@ -1,0 +1,19 @@
+/* src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100vw;
+  margin: auto;
+  padding: 1rem;
+}
