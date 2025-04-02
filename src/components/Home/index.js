@@ -1,25 +1,38 @@
 import './index.css'
+import {FaDownload, FaProjectDiagram} from 'react-icons/fa' // Import icons
 
 const Home = () => (
   <section className="home">
     <div className="home-content">
       <img
-        src="https://res.cloudinary.com/djan3q2wv/image/upload/v1743425021/WhatsApp_Image_2025-03-31_at_6.13.02_PM_s4p2du.jpg"
+        src="https://res.cloudinary.com/djan3q2wv/image/upload/v1743571062/DSC_1522-01_zxn9z7.jpg"
         alt="Profile"
         className="profile-image"
       />
-      <h1 className="name">Nikhil Galala</h1>
-      <h2>Welcome to My Portfolio</h2>
-      <p>
-        I am a dedicated Full Stack Developer with a profound expertise in
-        architecting dynamic, responsive web applications. With hands-on
-        experience in React, Node.js utilizing the Express framework, MySQL,
-        HTML, CSS, and Python, I engineer innovative solutions that are not only
-        highly functional but also seamlessly intuitive and user-centric.
+      <h2 className="name">Nikhil Galala</h2>
+      <h2>Passionate About Development | Driven by Innovation</h2>
+      <p className="description">
+        I am a Full Stack Developer with hands-on experience gained through
+        extensive training in building dynamic and responsive web applications.
+        Proficient in HTML, CSS, and JavaScript, I specialize in front-end
+        development using React and Bootstrap, while managing back-end services
+        with Node.js and the Express framework. I work with MySQL for database
+        management and leverage Python for building logic. Additionally, I have
+        a conceptual understanding of AWS core concepts and utilize Git for
+        efficient version control and collaboration.
       </p>
-      <a href="/projects" className="btn">
-        View My Projects
-      </a>
+      <div className="btn-container">
+        <a href="/projects" className="btn">
+          <FaProjectDiagram className="btn-icon" /> View My Projects
+        </a>
+        <a
+          href="https://drive.google.com/uc?export=download&id=1hDyNo9rNsSxJ2s0Mw_RBq9h8Ai0M9zRN"
+          className="btn download-btn"
+          download
+        >
+          <FaDownload className="btn-icon" /> Download Resume
+        </a>
+      </div>
     </div>
   </section>
 )

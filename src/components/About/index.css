@@ -1,21 +1,23 @@
 /* About Section */
 .about {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 120px 20px;
   box-sizing: border-box;
-  background: linear-gradient(135deg, #ffffff, #f3f4f6);
   color: #1b1b3a;
-  margin-top: 151px;
+  margin-top: 100px;
+  background-color: transparent;
 }
 
 .about-container {
-  max-width: 900px;
+  width: 80%;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
   text-align: center;
