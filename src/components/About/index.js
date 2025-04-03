@@ -1,4 +1,67 @@
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import './index.css'
+import EducationTimeline from '../EducationChrono'
+import FunFactsPopup from '../FunFact'
+
+const certificates = [
+  {
+    title: 'React JS',
+    image:
+      'https://res.cloudinary.com/djan3q2wv/image/upload/v1743673501/ReactJS_yz5dzx.jpg',
+  },
+  {
+    title: 'Node JS',
+    image:
+      'https://res.cloudinary.com/djan3q2wv/image/upload/v1743673518/NodeJS_pdgcw6.jpg',
+  },
+  {
+    title: 'Java Script Essentials',
+    image:
+      'https://res.cloudinary.com/djan3q2wv/image/upload/v1743673529/JavascriptEssentials_g5xb5h.jpg',
+  },
+  {
+    title: 'Python Programming',
+    image:
+      'https://res.cloudinary.com/djan3q2wv/image/upload/v1743673565/FoundationsWithPython_brh2lo.jpg',
+  },
+  {
+    title: 'MySQL',
+    image:
+      'https://res.cloudinary.com/djan3q2wv/image/upload/v1743673538/IntroductionToDatabases_g2zytd.jpg',
+  },
+  {
+    title: 'Bootstrap & Flexbox',
+    image:
+      'https://res.cloudinary.com/djan3q2wv/image/upload/v1743676263/ResponsiveWebsite_lqvqd0.jpg',
+  },
+  {
+    title: 'Static Website',
+    image:
+      'https://res.cloudinary.com/djan3q2wv/image/upload/v1743676361/StaticWebsite_etbv3r.jpg',
+  },
+  {
+    title: 'Dynamic Website',
+    image:
+      'https://res.cloudinary.com/djan3q2wv/image/upload/v1743676245/DynamicWebsite_wk7nyz.jpg',
+  },
+  {
+    title: 'Git & CLI',
+    image:
+      'https://res.cloudinary.com/djan3q2wv/image/upload/v1743676459/DeveloperFoundation_wtnoyg.jpg',
+  },
+]
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+}
 
 const About = () => (
   <section className="about">
@@ -48,6 +111,21 @@ const About = () => (
           tech landscape
         </p>
 
+        <div className="certificates">
+          <Slider {...settings}>
+            {certificates.map(eachCopy => (
+              <div key={new Date()} className="project-slide">
+                <img
+                  src={eachCopy.image}
+                  alt={eachCopy.title}
+                  className="certificate-image"
+                />
+                <h4>{eachCopy.title}</h4>
+              </div>
+            ))}
+          </Slider>
+        </div>
+
         <h3>Learning & Future Goals</h3>
         <p>
           I am dedicated to advancing my expertise in full-stack development,
@@ -73,9 +151,12 @@ const About = () => (
           section.
         </p>
 
-        <a href="/contact" className="btn">
-          Let's Connect
-        </a>
+        <div className="funfactlogo">
+          <a href="/contact" className="btn letsconnect">
+            Let's Connect
+          </a>
+          <FunFactsPopup />
+        </div>
       </div>
     </div>
   </section>

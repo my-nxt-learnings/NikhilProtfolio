@@ -18,8 +18,6 @@ const Contact = () => {
 
   const handleSubmit = e => {
     e.preventDefault()
-
-    // Construct the Gmail compose URL with the form data
     const subject = `Message from ${encodeURIComponent(formData.name)}`
     const body = `${encodeURIComponent(formData.message)}`
     const recipient = 'mynxtlearnings2025@gmail.com'

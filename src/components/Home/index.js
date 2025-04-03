@@ -22,12 +22,12 @@ const Home = () => (
         efficient version control and collaboration.
       </p>
       <div className="btn-container">
-        <a href="/projects" className="btn">
+        <a href="/projects" className="butn view-btn">
           <FaProjectDiagram className="btn-icon" /> View My Projects
         </a>
         <a
           href="https://drive.google.com/uc?export=download&id=1hDyNo9rNsSxJ2s0Mw_RBq9h8Ai0M9zRN"
-          className="btn download-btn"
+          className="butn download-btn"
           download
         >
           <FaDownload className="btn-icon" /> Download Resume

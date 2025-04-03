@@ -1,5 +1,6 @@
 import './index.css'
 import {FaFacebook, FaTwitter, FaLinkedin, FaGithub} from 'react-icons/fa'
+import {BsTriangleFill} from 'react-icons/bs'
 
 const Footer = () => (
   <footer className="footer">
@@ -9,17 +10,17 @@ const Footer = () => (
         href="https://github.com/my-nxt-learnings"
         target="_blank"
         rel="noopener noreferrer"
+        title="Github"
       >
         <FaGithub />
       </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-        <FaLinkedin />
-      </a>
-      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-        <FaTwitter />
-      </a>
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-        <FaFacebook />
+      <a
+        href="https://vercel.com/nikhils-projects-0c983374"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Vercel"
+      >
+        <BsTriangleFill />
       </a>
     </div>
   </footer>

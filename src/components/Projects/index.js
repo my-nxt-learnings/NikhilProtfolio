@@ -3,15 +3,10 @@ import './index.css'
 const projects = [
   {
     title: 'Notes App',
-    description: 'Full-stack notes app built using React, Node.js, and SQLite.',
+    description:
+      'Full-stack notes app built using React, Node.js wit Express framework, and SQLite.',
     link: 'https://my-notes-app-frontend.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/MyNotesAppFrontend',
-  },
-  {
-    title: 'Job Hive',
-    description: 'A responsive application to search jobs.',
-    link: 'https://job-hive-two.vercel.app',
-    gitlink: 'https://github.com/my-nxt-learnings/JobHive',
   },
   {
     title: 'Vidnest',
@@ -20,6 +15,20 @@ const projects = [
     link: 'vidnest-two.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/Vidnest',
   },
+  {
+    title: 'Estore',
+    description:
+      'A secure E-Commerce application with user authentication, product filtering, cart management, and seamless checkout, ensuring a smooth and efficient shopping experience.',
+    link: 'https://estore-wine.vercel.app',
+    gitlink: 'https://github.com/my-nxt-learnings/EnhancedEstore',
+  },
+  {
+    title: 'Job Hive',
+    description: 'A responsive application to search jobs.',
+    link: 'https://job-hive-two.vercel.app',
+    gitlink: 'https://github.com/my-nxt-learnings/JobHive',
+  },
+
   {
     title: 'Movie Nest App',
     description:
@@ -42,13 +51,6 @@ const projects = [
     gitlink: 'https://github.com/my-nxt-learnings/IPLbuzz',
   },
   {
-    title: 'Food Hub',
-    description:
-      'This responsive application, a clone of Swiggy and Zomato, features browsing menus, adding items to the cart, and placing orders, all while ensuring a seamless user experience across devices.',
-    link: 'food-hub-roan.vercel.app',
-    gitlink: 'https://github.com/my-nxt-learnings/FoodHub',
-  },
-  {
     title: 'Notes(React Hooks)',
     description:
       'Using React hooks(useState, useEffect) developed an simple notes application',
@@ -61,6 +63,14 @@ const projects = [
       'This Holi-themed application lets users click colorful balls to increase their score, creating a fun and interactive experience that celebrates the vibrant festival with dynamic gameplay.',
     link: 'holi-challenge.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/HoliChallenge',
+  },
+  {
+    title: 'Gradient Generator',
+    description:
+      'A Gradient Generator built with styled-components, allowing users to create custom gradients by selecting colors, adjusting direction, and generating CSS code instantly. ',
+    link: 'https://gradient-generator-styled-components.vercel.app',
+    gitlink:
+      'https://github.com/my-nxt-learnings/GradientGenerator-StyledComponents-',
   },
   {
     title: 'Text Editor',
@@ -77,11 +87,18 @@ const projects = [
     gitlink: 'https://github.com/my-nxt-learnings/SunoMusic',
   },
   {
-    title: 'Suno Music',
+    title: 'Stop Watch',
     description:
-      'A simple music application built to gain good experince over working with lists',
-    link: 'suno-music-alpha.vercel.app',
-    gitlink: 'https://github.com/my-nxt-learnings/SunoMusic',
+      'A Stopwatch Application built to demonstrate timing functions, utilizing setInterval and clearInterval for accurate time tracking, start, pause, and reset functionalities.',
+    link: 'https://mystopwatch846.ccbp.tech/',
+    gitlink: 'https://github.com/my-nxt-learnings/StopWatch-TimingFunctions-',
+  },
+  {
+    title: 'Emoji Game',
+    description:
+      'An interactive Emoji Game focusing on list handling and conditional rendering, where players select unique emojis while scores update dynamically. ',
+    link: 'https://emoji-game-ashen.vercel.app',
+    gitlink: 'https://github.com/my-nxt-learnings/EmojiGame',
   },
   {
     title: 'Rock Paper Scissors',
@@ -100,7 +117,7 @@ const Projects = () => (
         {projects.map(project => (
           <div className="project-card" key={new Date()}>
             <h3>{project.title}</h3>
-            <p>
+            <p title={project.description}>
               {project.description.slice(0, 65)}
               <span>...</span>
             </p>

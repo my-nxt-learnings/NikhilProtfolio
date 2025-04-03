@@ -59,8 +59,15 @@ body {
   margin-bottom: 7px;
 }
 
+.btn-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 /* Button */
-.btn {
+.butn {
   margin-top: 20px;
   padding: 12px 28px;
   background-color: #ff6b6b !important;
@@ -70,19 +77,28 @@ body {
   border-radius: 30px;
   font-size: 1.2rem;
   font-weight: 600;
-  transition: transform 0.3s ease-in-out, background-color 0.3s;
+  transition:
+    transform 0.3s ease-in-out,
+    background-color 0.3s;
   display: flex;
   align-items: center;
   gap: 8px;
+  width: 200px;
 }
 
 .btn-icon {
   font-size: 18px;
 }
 
-.btn:hover {
+.butn:hover {
   transform: scale(1.1);
   background-color: #e63946;
+}
+
+.download-btn {
+  background-color: transparent !important;
+  border: 2px solid #ff6b6b;
+  color: #ff6b6b;
 }
 
 /* Animations */
