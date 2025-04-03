@@ -9,10 +9,10 @@
   transform: rotateZ(180deg);
   background-color: #ff6b6b;
   border-radius: 50%;
-  height: 45px;
+  height: 48px;
   width: 45px;
   border: none;
- margin-top: 5px;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;

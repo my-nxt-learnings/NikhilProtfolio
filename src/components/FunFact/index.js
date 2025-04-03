@@ -5,9 +5,8 @@ import './index.css'
 const FunFactsPopup = () => (
   <Popup
     trigger={
-      <button className="smiley">
-        {' '}
-        <FaRegSmile size={30} />{' '}
+      <button type="button" className="smiley">
+        <FaRegSmile size={30} />
       </button>
     }
     modal
