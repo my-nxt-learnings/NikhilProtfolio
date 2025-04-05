@@ -152,7 +152,7 @@ const About = () => (
 
         <div className="funfactlogo">
           <a href="/contact" className="btn letsconnect">
-            Let's Connect
+            Let&apos;s Connect
           </a>
           <FunFactsPopup />
         </div>
