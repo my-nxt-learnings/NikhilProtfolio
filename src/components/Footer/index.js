@@ -10,12 +10,12 @@ const Footer = () => (
         href="https://github.com/my-nxt-learnings"
         target="_blank"
         rel="noopener noreferrer"
-        title="Githyb"
+        title="Github"
       >
         <FaGithub />
       </a>
       <a
-        href="https://github.com/my-nxt-learnings"
+        href="https://www.linkedin.com/in/nikhil-g-50166235a"
         target="_blank"
         rel="noopener noreferrer"
         title="LinkedIn"
