@@ -12,7 +12,7 @@ const projects = [
     title: 'Vidnest',
     description:
       'An application similar to video streaming platforms like youtube',
-    link: 'vidnest-two.vercel.app',
+    link: 'https://vidnest-two.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/Vidnest',
   },
   {
@@ -33,35 +33,35 @@ const projects = [
     title: 'Movie Nest App',
     description:
       'App that showcases essential information, including plot, cast, and ratings, for a diverse range of films.',
-    link: 'movie-nest-app.vercel.app',
+    link: 'https://movie-nest-app.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/MovieNestApp',
   },
   {
     title: 'Food Hub',
     description:
       'This responsive application, a clone of Swiggy and Zomato, features browsing menus, adding items to the cart, and placing orders, all while ensuring a seamless user experience across devices.',
-    link: 'food-hub-roan.vercel.app',
+    link: 'https://food-hub-roan.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/FoodHub',
   },
   {
     title: 'IPLBuzz',
     description:
       'This IPL app provides detailed information about teams, match results, statistics on matches played, wins, and other key data, offering a comprehensive view of the ongoing and past IPL seasons.',
-    link: 'ip-lbuzz.vercel.app',
+    link: 'https://ip-lbuzz.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/IPLbuzz',
   },
   {
     title: 'Notes(React Hooks)',
     description:
       'Using React hooks(useState, useEffect) developed an simple notes application',
-    link: 'niknotesrhooks.ccbp.tech',
+    link: 'https://niknotesrhooks.ccbp.tech',
     gitlink: 'https://github.com/my-nxt-learnings/Notes-ReactHooks',
   },
   {
     title: 'Color Burst',
     description:
       'This Holi-themed application lets users click colorful balls to increase their score, creating a fun and interactive experience that celebrates the vibrant festival with dynamic gameplay.',
-    link: 'holi-challenge.vercel.app',
+    link: 'https://holi-challenge.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/HoliChallenge',
   },
   {
@@ -76,14 +76,14 @@ const projects = [
     title: 'Text Editor',
     description:
       'A text editor application focused mainly on dynamic styling using styled components(CSS in JS)',
-    link: 'text-editor-ten-eta.vercel.app',
+    link: 'https://text-editor-ten-eta.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/TextEditor',
   },
   {
     title: 'Suno Music',
     description:
       'A simple music application built to gain good experince over working with lists',
-    link: 'suno-music-alpha.vercel.app',
+    link: 'https://suno-music-alpha.vercel.app',
     gitlink: 'https://github.com/my-nxt-learnings/SunoMusic',
   },
   {
