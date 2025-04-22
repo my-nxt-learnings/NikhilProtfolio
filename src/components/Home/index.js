@@ -12,7 +12,7 @@ const Home = () => (
       <h2 className="name">Nikhil Galala</h2>
       <h2>Passionate About Development | Driven by Innovation</h2>
       <p className="description">
-        I am trained Full Stack Developer with hands-on experience gained through
+        I am a Full Stack Developer with hands-on experience gained through
         extensive training in building dynamic and responsive web applications.
         Proficient in HTML, CSS, and JavaScript, I specialize in front-end
         development using React and Bootstrap, while managing back-end services
