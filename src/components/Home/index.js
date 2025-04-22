@@ -18,8 +18,8 @@ const Home = () => (
         front-end development using React and Bootstrap, while managing back-end
         services with Node.js and the Express framework. I work with MySQL for
         database management and leverage Python for building logic. Additionally,
-        I have a conceptual understanding of AWS core concepts and utilize Git
-        for efficient version control and collaboration.
+        I have a conceptual understanding of AWS core concepts and
+        utilize Git for efficient version control and collaboration.
       </p>
       <div className="btn-container">
         <a href="/projects" className="butn view-btn">
